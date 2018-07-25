@@ -9,6 +9,7 @@ public class A {
 
     private static int sum = 20;
 
+    //Por ser estàtica puede acceder a los otros atributos de A independienemente de si son estaticos o no
     public static class B {
 
         public B () {

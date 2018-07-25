@@ -14,6 +14,7 @@ public class E {
 
         final int x = 0;
 
+        //Se esta creando esta clase dentro del metodo y tiene acceso a todos los atributos de la clase que la contiene
         class F {
 
             public void otherMethod () {

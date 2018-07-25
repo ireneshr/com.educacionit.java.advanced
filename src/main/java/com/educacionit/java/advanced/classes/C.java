@@ -27,6 +27,9 @@ public class C {
 
     public static void main (String[] args) {
 
-        new C ();
+        C a = new C ();
+        D s = a.new D();
+
+        //Como D no es estatica tengo que crear una clase C y a esta se le crea una clase D
     }
 }
